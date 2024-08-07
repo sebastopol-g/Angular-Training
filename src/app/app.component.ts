@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-essentials';
+  title = 'Angular Training';
   rootName = "Sebastien G";
   rootItems: string[] = ['Apple', 'Bananas', 'Cherries'];
 

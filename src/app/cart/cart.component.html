@@ -1,11 +1,10 @@
-<p>Cart</p>
+<hr>
+<h1>Cart</h1>
 
 <input type="text" [(ngModel)]="newItem">
 <br>
 <br>
 <button class="btn" [ngClass]="{'btn-primary': newItem !== '', 'btn-default': newItem === ''}" (click)="addItem()">Add Item in cart</button>
-
-<hr>
 
 <ul>
     <li *ngFor="let it of items">{{ it }}</li>

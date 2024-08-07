@@ -1,7 +1,9 @@
-<p>Dashboard</p>
+<hr>
+
+<h1>Dashboard</h1>
 <p>the state is {{ loadState }}</p>
 
-<button (click)="changeState()">Change state</button>
+<button class="btn btn-default" (click)="changeState()">Change state</button>
 
 <p>Change the state by your own value here</p>
 <input type="text" [(ngModel)]="loadState">
