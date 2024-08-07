@@ -14,7 +14,7 @@ export class DashboardComponent {
     } else if (this.loadState === "finished"){
       this.loadState = "loading";
     } else {
-      this.loadState = this.loadState
+      this.loadState = this.loadState;
     }
   }
  }
