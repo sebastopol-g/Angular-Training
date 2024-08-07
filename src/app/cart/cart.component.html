@@ -3,7 +3,7 @@
 <input type="text" [(ngModel)]="newItem">
 <br>
 <br>
-<button (click)="addItem()">Add Item in cart</button>
+<button class="btn" [ngClass]="{'btn-primary': newItem !== '', 'btn-default': newItem === ''}" (click)="addItem()">Add Item in cart</button>
 
 <hr>
 
