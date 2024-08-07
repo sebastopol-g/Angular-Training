@@ -11,8 +11,10 @@ export class DashboardComponent {
   changeState() {
     if(this.loadState === "loading"){
       this.loadState = "finished";
-    } else {
+    } else if (this.loadState === "finished"){
       this.loadState = "loading";
+    } else {
+      this.loadState = this.loadState
     }
   }
  }
