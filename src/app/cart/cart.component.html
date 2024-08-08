@@ -1,6 +1,7 @@
 <hr>
 <h1>Cart</h1>
 
+<p *ngIf="newItem === ''">Please enter a value</p>
 <input type="text" [(ngModel)]="newItem">
 <br>
 <br>
@@ -9,3 +10,4 @@
 <ul>
     <li *ngFor="let it of items">{{ it }}</li>
 </ul>
+
